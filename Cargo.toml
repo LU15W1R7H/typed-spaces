@@ -1,0 +1,12 @@
+[package]
+name = "typed-spaces"
+version = "0.1.0"
+authors = ["Luis Wirth <lwirth2000@gmail.com>"]
+edition = "2021"
+
+[dependencies]
+approx = "0.5.1"
+nalgebra = { version = "0.31.1", features = [ "bytemuck", "serde-serialize" ] }
+num-traits = "0.2.15"
+serde = "1.0.144"
+simba = "0.7.2"
